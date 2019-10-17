@@ -1,0 +1,132 @@
+@media screen and (min-width:260px) and (max-width: 599px) {
+  .header {
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .logo-image{
+    height: 50px;
+    margin: 10px;
+    position: absolute;
+    transform-origin: left;
+    transform: translate(-40px);
+    transition-timing-function: ease-in 0.3s;
+  }
+
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  .project-card, .intro, .footer-card {
+    max-width: 280px;
+  }
+
+  .project-img {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width:600px) and (max-width: 700px) {
+  .logo-image{
+    height: 80px;
+    margin: 10px;
+    position: absolute;
+    transform-origin: left;
+    transform: translate(-30px);
+    transition-timing-function: ease-in 0.3s;
+  }
+
+  .logo-image1{
+    height: 150px;
+
+
+    transform-origin: right;
+    transform: translate(30px);
+    transition-timing-function: ease-in 0.3s;
+  }
+
+
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  .project-card, .intro, .footer-card {
+    max-width: 280px;
+  }
+
+  .project-img {
+    max-width: 100%;
+  }
+}
+/*
+ * Viewport 600px and more.
+*/
+@media screen and (min-width: 600px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .name-title {
+    text-align: right;
+  }
+
+  .project-title {
+    text-align: center;
+  }
+
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  .project-card, .intro, .footer-card {
+    max-width: 280px;
+  }
+
+  .project-img {
+    max-width: 100%;
+  }
+
+/*
+ * Viewport 1100px - 3 Columns and Fixed width
+*/
+@media screen and (min-width: 1100px) {
+  .sand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  .project-card, .intro, .footer-card {
+    max-width: 280px;
+  }
+
+  .project-img {
+    max-width: 100%;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+}
