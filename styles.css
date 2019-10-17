@@ -121,7 +121,38 @@ button:hover {
   justify-content: space-around;
   flex-direction: row;
   padding-top: 10px;
+}
 
+.projects-container-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 10px;
+}
+
+.intro1{
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 2px 1px 1px black;
+  font-weight: 400;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  max-width: 690px;
+}
+
+.intro-ul {
+
+}
+
+.intro-li {
+  padding: 3px 10px 3px 10px;
 }
 
 .intro {
