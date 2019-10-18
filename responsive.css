@@ -1,23 +1,23 @@
 @media screen and (min-width:260px) and (max-width: 599px) {
   .header {
-    text-align: center;
     padding: 20px 0;
+    text-align: center;
   }
 
   .logo-image{
     height: 50px;
     margin: 10px;
     position: absolute;
-    transform-origin: left;
     transform: translate(-40px);
+    transform-origin: left;
     transition-timing-function: ease-in 0.3s;
   }
 
   .projects-container {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    flex-direction: row;
   }
 
   .project-card, .intro, .footer-card {
@@ -34,26 +34,24 @@
     height: 80px;
     margin: 10px;
     position: absolute;
-    transform-origin: left;
     transform: translate(-30px);
+    transform-origin: left;
     transition-timing-function: ease-in 0.3s;
   }
 
   .logo-image1{
     height: 150px;
-
-
-    transform-origin: right;
     transform: translate(30px);
+    transform-origin: right;
     transition-timing-function: ease-in 0.3s;
   }
 
 
   .projects-container {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    flex-direction: row;
   }
 
   .project-card, .intro, .footer-card {
@@ -69,10 +67,10 @@
 */
 @media screen and (min-width: 600px) {
   .header {
+    align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
     padding: 20px;
   }
 
@@ -86,9 +84,9 @@
 
   .projects-container {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    flex-direction: row;
   }
 
   .project-card, .intro, .footer-card {
@@ -111,9 +109,9 @@
 
   .projects-container {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    flex-direction: row;
   }
 
   .project-card, .intro, .footer-card {
@@ -125,8 +123,8 @@
   }
 
   .footer {
+    align-items: flex-end;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
   }
 }
