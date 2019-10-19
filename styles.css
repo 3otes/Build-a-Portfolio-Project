@@ -47,6 +47,11 @@ a:hover {
   color: #0246e4;
 }
 
+ul {
+    display: contents;
+    list-style-type: none;
+}
+
 button {
   background-color: #1c262f;
   border-radius: 5px;
@@ -159,6 +164,7 @@ button:hover {
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 5px;
+  text-align: center;
   text-shadow: 2px 1px 1px black;
 }
 
@@ -230,7 +236,6 @@ button:hover {
 
 .project-ul {
   display: flex;
-  list-style: none;
   padding-right: 40px;
 }
 
