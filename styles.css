@@ -66,6 +66,18 @@ a:hover {
   color: #0246e4;
 }
 
+.specialA {
+  color: white;
+}
+
+:hover.specialA {
+  color: white;
+}
+
+::after.specialA {
+  color: white;
+}
+
 .intro-ul {
   font-size: large;
 }
