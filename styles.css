@@ -24,9 +24,28 @@ h6 {
   margin: 0;
 }
 
+p {
+  font-size: large;
+}
+
+li {
+  padding: 10px 0 5px 0;
+}
+
+.h2extra {
+  color: #dada00;
+  font-weight: 500;
+  text-shadow: 2px 2px 2px black;
+}
+
+.h2extra1 {
+  padding: 15px 0 0 0;
+}
+
 .subheading {
   color: #5bff08;
-  font-weight: 300;
+  font-size: larger;
+  font-weight: 400;
   margin: 15px 0 -5px 0;
   text-shadow: 2px 1px 1px black;
 }
@@ -47,9 +66,8 @@ a:hover {
   color: #0246e4;
 }
 
-ul {
-    display: contents;
-    list-style-type: none;
+.intro-ul {
+  font-size: large;
 }
 
 button {
@@ -237,6 +255,10 @@ button:hover {
 .project-ul {
   display: flex;
   padding-right: 40px;
+}
+
+.project-ul1 {
+  list-style-type: none;
 }
 
 .footer-nav {
